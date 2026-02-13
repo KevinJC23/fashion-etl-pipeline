@@ -44,6 +44,7 @@ class TestLoad(unittest.TestCase):
         
         mock_print.assert_called_with("An error occurred while saving data to CSV: Permission Denied")
 
+    
     @patch('builtins.print')
     @patch('utils.load.create_engine')
     def test_store_to_postgre_exception(self, mock_engine, mock_print):
@@ -53,6 +54,7 @@ class TestLoad(unittest.TestCase):
         
         mock_print.assert_called_with("An error occurred while saving data to PostgreSQL: Connection Failed")
 
+    
     @patch('builtins.print')
     @patch('utils.load.build')
     @patch('utils.load.Credentials')
