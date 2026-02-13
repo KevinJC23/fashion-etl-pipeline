@@ -1,0 +1,17 @@
+version: '3.13.*'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: fashion_postgres_container
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=developer
+      - POSTGRES_PASSWORD=secretpassword
+      - POSTGRES_DB=fashion_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
