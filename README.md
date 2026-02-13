@@ -1,5 +1,8 @@
 # Fashion Studio ETL Pipeline 
 
+## Overview
+This project is a simple ETL (Extact, Load, Transform) pipeline built using Python. The system performs web scraping to collect fashion data from https://fashion-studio.dicoding.dev web page. Data that has been taken will be cleaned and transformed, then saved in three different repositories such as CSV, Google Sheets, and PostgreSQL.
+
 ## Case Study
 You are a data engineer working for a retail company in fashion and design. Every month, your company release a new items that are widely loved and purchased by public. 
 
