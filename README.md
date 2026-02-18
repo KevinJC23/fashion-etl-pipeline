@@ -102,7 +102,9 @@ SELECT * FROM products;
   - SpreadsheetID: 1QQJRRQBveHhZbHXBmI-7rrbntI96tihOYoR5GYrTcIE
 ```
 
-### Run the Application
+## Run the Application
+
+### Run ETL pipeline in utils folder through main.py file
 ```
 # Run the Script
 python main.py
