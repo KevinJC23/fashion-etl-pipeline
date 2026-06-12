@@ -118,12 +118,12 @@ python -m pytest tests
 
 ### Run test coverage in tests folder
 ```
-# simple report:
+# Simple report:
 python -m pytest --cov=utils tests
 
-# see missing lines report:
+# Missing lines report:
 python -m pytest --cov=utils --cov-report=term-missing tests
 
-# see the report in HTML form:
+# Report in HTML form:
 python -m pytest --cov=utils --cov-report=html tests
 ```
